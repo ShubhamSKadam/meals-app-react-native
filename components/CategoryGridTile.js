@@ -1,7 +1,6 @@
 import {Pressable, StyleSheet, Text, View, Platform} from 'react-native';
 import React from 'react';
 
-// This component is responsible for rendering each grid element 
 const CategoryGridTile = ({title, color, onPress}) => {
   return (
     <View style={[styles.gridItem]}>

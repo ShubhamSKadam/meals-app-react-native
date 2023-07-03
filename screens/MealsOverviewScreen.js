@@ -2,7 +2,7 @@ import {MEALS} from '../data/dummy-data';
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const MealsOverviewScreen = ({navigation}) => {
+const MealsOverviewScreen = () => {
   return (
     <View style={styles.container}>
       <Text>MealsOverviewScreen</Text>
